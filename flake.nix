@@ -11,6 +11,10 @@
         path = ./server;
         description = "Manage NixOS server remotely";
       };
+      rn07 = {
+        path = ./react-native;
+        description = "Develop with react-native 7";
+      };
     };
     defaultTemplate = self.templates.shell;
     };
